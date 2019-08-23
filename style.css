@@ -1,0 +1,41 @@
+html{
+    margin: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#box {
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.buttons{
+    margin: 50px;
+    text-align: center;
+}
+
+.buttons:disabled{
+    background-color: gainsboro;
+}
+
+#button-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 1126px) {
+    .buttons{
+        margin: 30px;
+    }
+}
